@@ -1,5 +1,5 @@
 const express = require("express");
-const port = proces.any.PORT || 3000;
+const port = process.env.PORT || 3000;
 const app = express();
 //ustawienie, ze moja aplikacja musi korzystac z silnika hbs
 app.set("view engine", 'hbs')
